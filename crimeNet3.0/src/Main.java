@@ -83,76 +83,7 @@ public class Main {
 		sus.add(s5);
 		
 		new MyFrame(sus, comm);
-		
-//		Graph<String, String> g = new SparseMultigraph<String,String>();
-//		
-//		
-//		g.addVertex(s1.getCodeName());
-//		g.addVertex(s2.getCodeName());
-//		g.addVertex(s3.getCodeName());
-//		g.addVertex(s4.getCodeName());
-//		g.addVertex(s5.getCodeName());
-//
-//		int counter=0;
-//		for(Suspect s : sus)
-//		{
-//			for(Suspect ss : sus)
-//			{
-//				if(s.isConnectedTo(ss))
-//				{	counter++;
-//					String str = Integer.toString(counter);
-//					g.addEdge(str, s.getCodeName(),ss.getCodeName());
-//				}
-//				
-//			}
-//		}
-//
-//
-//		
-//		
-//		Layout<Integer, String> layout = new CircleLayout(g);
-//		layout.setSize(new Dimension(300,300)); // sets the initial size of the space
-//		// The BasicVisualizationServer<V,E> is parameterized by the edge types
-//		BasicVisualizationServer<Integer,String> vv = new BasicVisualizationServer<Integer,String>(layout);
-//		vv.setPreferredSize(new Dimension(350,350)); //Sets the viewing area size
-//		
-//		vv.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
-//		
-//		JFrame frame = new JFrame("Simple Graph View");
-//		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		frame.getContentPane().add(vv);
-//		frame.pack();
-//		frame.setVisible(true);
-//		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-//		g.addEdge("Suspect A ", s1.getName(),s2.getName());
-		
-		
-		//which ones 
-//		System.out.println(g.getOutEdges(s1.getName()));
-		//how many 
-//		System.out.println(g.outDegree(4));
-//	
-		
-		
-//		System.out.println(g);
-
-		
-		// The Layout<V, E> is parameterized by the vertex and edge types		
-		
-		
-		
-		
-		
-		
+				
 	}
 		
 		
