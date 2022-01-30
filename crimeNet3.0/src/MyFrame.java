@@ -97,13 +97,6 @@ public class MyFrame extends JFrame
 											}
 										}
 										
-										//note to myself: good thinking
-//										if(counter %2 ==0)
-//										{	
-//											g.removeEdge(str);
-//										}	
-//to str tha empene stin thesi tou combine kanonika :)
-										
 								}
 								
 							}
@@ -117,12 +110,8 @@ public class MyFrame extends JFrame
 						BasicVisualizationServer<Integer,String> vv = new BasicVisualizationServer<Integer,String>(layout);
 						vv.setPreferredSize(new Dimension(350,350)); //Sets the viewing area size
 
-						
-
-//						diameter.setAlignmentY(JTextField.BOTTOM);
-						
+												
 						vv.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
-//						vv.add(diameter,BorderLayout.NORTH);
 						
 						JFrame frame = new JFrame("Simple Graph View");
 						frame.setLayout(new BorderLayout());
@@ -174,37 +163,5 @@ public class MyFrame extends JFrame
 
 	}
 	
-//	class ButtonListener implements ActionListener{	
-//		
-//		@Override
-//		public void actionPerformed(ActionEvent e) 
-//		{
-//			if(e.getSource() == button)
-//			{
-////				Suspect sus = new Suspect();
-//				Suspect s1 = new Suspect();
-//				
-//				
-//				for(Suspect sus1 : sus)
-//				{
-//					System.out.println(sus1.getName());
-//				}
-////					if(sus.getName().contentEquals(name))
-////					{
-////						System.out.println("found him");
-////					}
-////					else
-////					{
-////						
-////						System.out.println("suspect "+name+" not found");
-////
-////					}
-////				}
-//						
-//	
-//			}
-//		}
-//		
-//	}
 }
 
