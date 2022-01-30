@@ -101,7 +101,6 @@ public class Registry
 				if(sus.get(i).getNumList().get(j)== num1) 
 				{
 					sus1= sus.get(i);
-		//			System.out.println(sus1.getCodeName());
 				}
 				else if(sus.get(i).getNumList().get(j)== num2) 
 				{
