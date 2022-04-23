@@ -1,1 +1,1 @@
-# Java_graphs_arraylists_etc..
+hypothetical system for monitoring the activity of a network of suspects with graph visualization.
