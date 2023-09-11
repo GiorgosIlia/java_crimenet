@@ -101,6 +101,7 @@ public class Main {
 This is the main class of the Communication Analysis System. It initializes and manages the suspects, communications, and the graphical user interface. Suspects and communications are created and added to the registry. The program then visualizes the communication network using a graphical representation.
 
 ### Usage
+This project can be developed furthered by importing a .csv file instead of writting the suspects in main. 
 
 To run the program, ensure you have the Java Development Kit (JDK) installed on your system. Compile and execute the `Main.java` file using your preferred Java IDE or the command line.
 
